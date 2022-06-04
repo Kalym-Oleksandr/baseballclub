@@ -5,14 +5,14 @@
     justify-content: center;
 }
 
-#schedule_heading  {
+#schedule__heading  {
     display: flex;
     margin: 120px 20% 20px;
     text-align: center;
     text-transform: uppercase;
 }
 
-.schedule_week {
+.schedule__week {
     background-color: var(--header-background-color);
     height: 150px;
     margin: 0 25px 25px;
