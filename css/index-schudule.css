@@ -15,5 +15,6 @@
 .schedule__week {
     background-color: var(--header-background-color);
     height: 150px;
+    width: 80%;
     margin: 0 25px 25px;
 }
