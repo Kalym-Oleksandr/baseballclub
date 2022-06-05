@@ -11,11 +11,12 @@
     background-color: var(--header-navigation-bar-color);
 }
 
-.header__navigation-logo-img {
+.header__navigation-logo {
+    height: 100%;
+    width: 150px;
     margin-top: 10px;
-    height: 100px;
-    width: 100%;
 }
+
 
 .header__navigation-wrapper {
     display: flex;
@@ -49,9 +50,10 @@
     margin-top: 5px;
 }
 
-.header__navigation-social-telephone {
+.header__navigation-social-phone {
     color: var(--main-text-link-color);
     margin-top: 5px;
+    text-decoration: none;
 }
 
 .header__navigation-social-links a i {

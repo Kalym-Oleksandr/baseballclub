@@ -24,6 +24,7 @@
 .footer__navigation-social-phone {
     color: var(--main-text-link-color);
     margin: 5px 0;
+    text-decoration: none;
 }
 
 .footer__navigation-social-links {
