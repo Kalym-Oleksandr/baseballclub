@@ -28,7 +28,6 @@
     margin: 10px 25px;
     background-color: var(--news-background-color);
     padding: 20px;
-    height: 100%;
 }
 
 .news__contain .news__heading {
