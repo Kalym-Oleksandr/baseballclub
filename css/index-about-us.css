@@ -35,6 +35,9 @@
 
     @media (min-width: 1143px) {
         .about-us__info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             font-size: 45px;
         }
     }
