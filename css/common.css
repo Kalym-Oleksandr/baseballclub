@@ -20,3 +20,16 @@ img {
     display: block;
     width: 100%;
 }
+
+.heading {
+    display: flex;
+    margin: 50px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+@media (min-width: 1143px) {
+    #heading {
+        margin: 75px 0;
+        font-size: 2rem;
+    }
+}

@@ -41,3 +41,9 @@
 .suvenirs-shop__product-button {
     margin: 10px 0;
 }
+
+@media (min-width: 751px) {
+    .suvenirs-shop__wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}

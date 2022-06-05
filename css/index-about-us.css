@@ -6,20 +6,36 @@
     margin: 25px;
 }
 
-#about-us__heading {
-    display: flex;
-    margin: 25px 0;
-    text-transform: uppercase;   
-}
-
 .about-us__wrapper {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 30px ;
+    gap: 30px;
 }
 
 .about-us__fotos {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 30px ;
+    gap: 30px;
+}
+
+.about-us__info {
+    font-weight: 400;
+}
+
+@media (min-width: 751px) {
+    .about-us__wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    .about-us__info {
+        font-size: 35px;
+    }
+
+
+    @media (min-width: 1143px) {
+        .about-us__info {
+            font-size: 45px;
+        }
+    }
 }

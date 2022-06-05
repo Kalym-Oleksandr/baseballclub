@@ -61,11 +61,63 @@
     margin: 10px 5px;
 }
 
+@media (min-width: 751px) {
+    .header__navigation {
+        justify-content: space-around;
+    }
+
+    .header__navigation-wrapper {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header__navigation-links {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .header__navigation-links-link {
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .header__navigation-social {
+        margin: 0 15px;
+    }
+
+    .header__navigation-social-language {
+        padding: 0 5px;
+    }
+
+    .header__navigation-social-phone {
+        border-left: 1px solid var(--main-text-link-color);
+        border-right: 1px solid var(--main-text-link-color);
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    @media (min-width: 1143px) {
+        .header__navigation-social {
+            flex-direction: row;
+        }
+
+    }
+
+    @media (min-width: 1300px) {
+        .header__navigation-wrapper {
+            width: 100%;
+        }
+    }
+}
+
+
 /* Burger-Menu */
 
 @media (max-width: 750px) {
     body.lock {
-        position: relative;
+        position: fixed;
         overflow: hidden;
     }
 
@@ -82,14 +134,14 @@
         overflow: hidden;
         margin: auto;
     }
-    
+
     .header__navigation-links {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    
+
     .header__navigation-link {
         margin: 15px;
     }
@@ -99,18 +151,20 @@
     }
 
 }
-    .header__navigation-burger-menu {
-        position: relative;
-        width: 10px;
-        height: 2px;
-        padding: 7px;     
-        cursor: pointer;
-        z-index: 1;   
-    }
+
+.header__navigation-burger-menu {
+    position: relative;
+    width: 10px;
+    height: 2px;
+    padding: 7px;
+    cursor: pointer;
+    z-index: 1;
+}
 
 /* Animations */
 
 @media (max-width: 750px) {
+
     .header__navigation-burger-menu::before,
     .header__navigation-burger-menu span,
     .header__navigation-burger-menu::after {
@@ -122,7 +176,7 @@
         transition: all 0.25s ease-in-out;
         z-index: 2;
     }
-    
+
     .header__navigation-burger-menu span {
         transform: scale(1);
     }
