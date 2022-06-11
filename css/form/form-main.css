@@ -1,0 +1,30 @@
+.form-main__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 1000px ; 
+    font-family: 'Montserrat';
+}
+
+.send {
+    background-color: var(--main-text-link-color);
+    color: var(--main-text-color);
+    border: 2px solid var(--header-background-color);
+    font-family: 'Montserrat';
+    padding: 5px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.send:hover {
+    background-color: var(--header-background-color);
+    color: var(--main-text-link-color);
+}
+
+.entry-fild {
+    height: 25px;
+    text-align: center;
+}

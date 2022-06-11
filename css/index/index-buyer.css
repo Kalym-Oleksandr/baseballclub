@@ -1,0 +1,19 @@
+.buyer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buyer__product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buyer__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
