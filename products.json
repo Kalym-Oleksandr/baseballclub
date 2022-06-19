@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "title": "Кружка",
+        "image": "img/suvenirs-shop-1.png",
+        "price": 100
+    },
+    {
+        "id": "2",
+        "title": "Сумка",
+        "image": "img/suvenirs-shop-2.png",
+        "price": 120
+    },
+    {
+        "id": "3",
+        "title": "Кепка",
+        "image": "img/suvenirs-shop-3.png",
+        "price": 130
+    },
+    {
+        "id": "4",
+        "title": "Футболка",
+        "image": "img/suvenirs-shop-4.png",
+        "price": 140
+    }
+]

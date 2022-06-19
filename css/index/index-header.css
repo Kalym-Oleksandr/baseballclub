@@ -37,6 +37,15 @@
     margin-top: 10px;
 }
 
+.d-none {
+    display: none;
+}
+
+.openCartLink {
+    color: var(--main-text-link-color);
+    text-decoration: none;
+}
+
 .header__navigation-social {
     display: flex;
     flex-direction: column;

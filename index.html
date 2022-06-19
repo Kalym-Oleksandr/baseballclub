@@ -21,11 +21,16 @@
                 </a>
             </div>
             <div class="header__navigation-wrapper">
-                <div class="header__navigation-links">
+                <div class="header__navigation-links" id="navbarNav">
                     <a class="header__navigation-links-link" href="#about-us">Про нас</a>
                     <a class="header__navigation-links-link" href="#schedule">Розклад занять</a>
                     <a class="header__navigation-links-link" href="#news">Новини</a>
                     <a class="header__navigation-links-link" href="#suvenirs_shop">Сувенірна лавка</a>
+                    <div class="header__navigation-links-link d-none">
+                        <a class="openCartLink" href="#modal-cart">
+                            <span id="cart-badge" class="cart-menu badge"></span>
+                        </a>
+                    </div>
                 </div>
                 <div class="header__navigation-social">
                     <p class="header__navigation-social-language">UA</p>
@@ -81,7 +86,7 @@
                                 <li>м.Чернівці, вул. Комарова, 26в<br><b>(Ліцей №18)</b></li>
                             </ol>
                             <a class="schedule__week-form-link" href="form.html">Запис на тренування</a>
-                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -164,48 +169,40 @@
         </nav>
         <p class="footer__copyright">© Production 2022, Baseball Club "Grizzly".</p>
     </footer>
-    <!-- <section class="buyer">
-        <h2>Твої покупки</h2>
-        <div class="buyer__product"> 
-            Назва товару:<div class="buyer__product"> Кепка;</div>
-            <div class="buyer__product">
-                Кількість товару <div class="buyer__product"> 1;</div>
+
+    <div class="modal-cart" id="modal-cart">
+        <div class="cart-modal-content">
+            <div class="cart-modal-header">
+                <h5 class="modal-title" id="cartLabel">Корзина</h5>
+                <button type="button" class="cart-button modal-close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="cart-modal-body">
+                <div class="cart-product-list-container"></div>
+                <div class="cart-form">
+                    <form class="cart-form-main__wrapper" action="https://formspree.io/f/xqknjlne" method="post">
+                        <label>Ваше Прізвище та Ім'я:</label>
+                        <input type="text" name="Прізвище ім'я клієнта">
+                        <label>Ваша Eлектронна пошта:</label>
+                        <input type="email" name="Email клієнта">
+                        <div class="cart-form-button">
+                            <button class="cart-button send" type="submit">Відправити</button>
+                            <p class="cart-button modal-close">Закрити</p>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
-            <div class="buyer__product">
-                Ціна: <div class="buyer__product"> 120 грн</div>
-            </div>
-            <form class="buyer__form">
-                <label>
-                    Прізвище
-                </label>
-                    <input class="entry-fild" type="name" name="Прізвище покупця">
-                <label>
-                    Ім'я
-                </label>
-                    <input class="entry-fild" type="name" name="Ім'я покупця">
-                <label>
-                    По батькові
-                </label>
-                    <input class="entry-fild" type="name" name="По батькові покупця">
-                <label>
-                    Номер телефону
-                </label>
-                    <input class="entry-fild" type="tel" name="Телефон покупця">
-                <label>
-                    Електронна пошта
-                </label>
-                    <input class="entry-fild" type="email" name="Електронна пошта покупця">
-                <label>
-                    Текстове поле для ваших запитань
-                </label>
-                    <input type="text" name="текстове поле">
-                <button class="send" type="submit">Відправити</button>
-            </form>
-    </section> -->
+    </div>
+
+    <script src="js/products-dervice.js"></script>
     <script src="js/burger-menu.js"></script>
     <script src="js/carrousel.js"></script>
-    <script src="js/form-buyer.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/product-lisk.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/cart-modal.js"></script>
 </body>
 
 </html>
