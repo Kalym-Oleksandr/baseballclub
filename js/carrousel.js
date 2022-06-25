@@ -4,25 +4,25 @@
                           <h3 class="suvenirs-shop__product-heading">Кружка</h3>
                           <img class="suvenirs-shop__product-image" src="img/suvenirs-shop-1.png" alt="Крута кружка">
                           <p class="suvenirs-shop__product-price">Ціна: 100грн</p>
-                          <button class="suvenirs-shop__product-button">Замовити</button>
+                          <button class="suvenirs-shop__product-button buy" data-id="1">Замовити</button>
                       </article>`,
         `<article class="suvenirs-shop__product">
                           <h3 class="suvenirs-shop__product-heading">Сумка</h3>
                           <img class="suvenirs-shop__product-image" src="img/suvenirs-shop-2.png" alt="Крута сумка">
                           <p class="suvenirs-shop__product-price">Ціна: 120грн</p>
-                          <button class="suvenirs-shop__product-button">Замовити</button>
+                          <button class="suvenirs-shop__product-button buy" data-id="2">Замовити</button>
                       </article>`,
         `<article class="suvenirs-shop__product">
                           <h3 class="suvenirs-shop__product-heading">Кепка</h3>
                           <img class="suvenirs-shop__product-image" src="img/suvenirs-shop-3.png" alt="Крута кепка">
                           <p class="suvenirs-shop__product-price">Ціна: 130грн</p>
-                          <button class="suvenirs-shop__product-button">Замовити</button>
+                          <button class="suvenirs-shop__product-button buy"data-id="3">Замовити</button>
                       </article>`,
         `<article class="suvenirs-shop__product">
                           <h3 class="suvenirs-shop__product-heading">Футболка</h3>
                           <img class="suvenirs-shop__product-image" src="img/suvenirs-shop-4.png" alt="Крута футболка">
                           <p class="suvenirs-shop__product-price">Ціна: 140грн</p>
-                          <button class="suvenirs-shop__product-button">Замовити</button>
+                          <button class="suvenirs-shop__product-button buy" data-id="4">Замовити</button>
                       </article>`,
     ];
 

@@ -62,13 +62,19 @@
     width: 100%;
 }
 
-.cart-form-main__wrapper {
+.cart-form-main__wrapper  {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     text-align: center; 
     font-family: 'Montserrat';
+}
+
+.cart-form-main__wrapper-label {
+font-family: 'Montserrat';
+padding: 5px;
+font-size: 20px;
 }
 
 .cart-form-button {
